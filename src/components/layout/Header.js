@@ -89,8 +89,12 @@ const Header = () => {
               key={index}
               onClick={menu.path ? () => moveToPage(menu.path) : null}
               onMouseEnter={() => setHoverMenuIndex(index)}
-              className={cx(['menu', { highlight: index === currentPageIndex }])}>
-              <span>{menu.title}</span>
+              onMouseLeave={() => {
+                setHoverMenuIndex(-1);
+                setHoverSubMenuIndex(-1);
+              }}
+              className={cx('menu')}>
+              <span className={cx({ highlight: index === currentPageIndex })}>{menu.title}</span>
               {menu.subMenus && (
                 <MdOutlineKeyboardArrowRight size={16} className={cx(['icon', { rotate: index === hoverMenuIndex }])} />
               )}
@@ -102,6 +106,7 @@ const Header = () => {
                         key={index}
                         onClick={() => moveToPage(subMenu.path)}
                         onMouseEnter={() => setHoverSubMenuIndex(index)}
+                        onMouseLeaver={() => setHoverSubMenuIndex(-1)}
                         className={cx(['subMenu', { highlight: index === hoverSubMenuIndex }])}>
                         <span>{subMenu.title}</span>
                         {index === hoverSubMenuIndex && (
