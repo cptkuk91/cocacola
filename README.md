@@ -24,7 +24,7 @@
 1. Repository Clone
 
 ```
-git clone https://github.com/cptkuk91/cocacola.git)
+git clone https://github.com/cptkuk91/cocacola.git
 ```
 
 2. Directory 이동
