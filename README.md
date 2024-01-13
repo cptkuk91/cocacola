@@ -1,5 +1,13 @@
 ## 코카콜라 웹사이트 클론 프로젝트
 
+![슬라이드1](https://github.com/cptkuk91/cocacola/assets/75208878/3e3b7000-4551-4c54-b111-37d692dfdc8e)
+
+![슬라이드2](https://github.com/cptkuk91/cocacola/assets/75208878/99eec016-7899-4d29-98e0-0fa149d9e2b7)
+
+![슬라이드3](https://github.com/cptkuk91/cocacola/assets/75208878/4fdbe7ba-0563-41a0-ab89-7554bbaeb986)
+
+![슬라이드4](https://github.com/cptkuk91/cocacola/assets/75208878/01d4b05c-7d2e-4311-981b-d07c1a894857)
+
 ### 프로젝트 개요
 
 이 문서는 코카콜라 공식 웹사이트의 주요 인터페이스와 기능을 클론한 프로젝트에 대한 기술적 세부 사항을 설명합니다. 목적은 React와 SCSS를 사용하여 현대적인 웹 개발 기술을 적용하고, 사용자 인터페이스 구축에 대한 이해를 심화하는 것입니다.
